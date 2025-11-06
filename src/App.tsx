@@ -9,6 +9,9 @@ import Seo from "./pages/services/Seo"
 import DigitalMarketingStrategy from "./pages/services/DigitalMarketingStrategy"
 import LeadGeneration from "./pages/services/LeadGeneration"
 import VideoMarketing from "./pages/services/VideoMarketing"
+import BrandDevelopment from "./pages/services/BrandDevelopment"
+import WebsiteDevelopment from "./pages/services/WebsiteDevelopment"
+import Overview from "./pages/hubspot/Overview"
 
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
           <Route path="/services/digital-marketing-strategy" element={<DigitalMarketingStrategy/>}/>
           <Route path="/services/lead-generation-agency" element={<LeadGeneration/>}/>
           <Route path="/services/video-marketing" element={<VideoMarketing/>}/>
+          <Route path="/services/brand-development" element={<BrandDevelopment/>}/>
+          <Route path="/services/website-development" element={<WebsiteDevelopment/>}/>
+          <Route path="/hubspot/overview" element={<Overview/>}/>
         </Routes>
       </div>
       <Footer />

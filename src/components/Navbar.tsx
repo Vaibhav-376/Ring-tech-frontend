@@ -18,6 +18,9 @@ const Navbar: React.FC = () => {
       { label: "Digital Marketing Strategy", href: "/services/digital-marketing-strategy" },
       { label: "Lead Generation Agency", href: "/services/lead-generation-agency" },
       { label: "Video Marketing", href: "/services/video-marketing" },
+      { label: "Branding Developement", href: "/services/brand-development" },
+      { label: "Website & App Development", href: "/services/website-development" },
+      { label: "Hubspot services", href: "/hubspot/overview" },
     ],
     Industry: [
       { label: "Healthcare", href: "/industry/healthcare" },
@@ -26,7 +29,7 @@ const Navbar: React.FC = () => {
       { label: "Education", href: "/industry/education" },
     ],
     HubSpot: [
-      { label: "CRM Setup", href: "/hubspot/crm-setup" },
+      { label: "Overview", href: "/hubspot/overview" },
       { label: "Automation", href: "/hubspot/automation" },
       { label: "Analytics", href: "/hubspot/analytics" },
       { label: "Integrations", href: "/hubspot/integrations" },
