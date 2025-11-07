@@ -50,7 +50,7 @@ const CaseStudies = () => {
   };
 
   return (
-    <section className="py-20 bg-gradient-to-r from-white via-pink-50/40 to-white">
+    <section className="py-20 bg-linear-to-r from-white via-pink-50/40 to-white">
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -59,7 +59,7 @@ const CaseStudies = () => {
         className="max-w-6xl mx-auto px-6 md:px-10"
       >
         <h2 className="text-center text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-14">
-          <span className="bg-gradient-to-r from-pink-600 to-rose-400 bg-clip-text text-transparent">
+          <span className="bg-linear-to-r from-pink-600 to-rose-400 bg-clip-text text-transparent">
             Case Studies
           </span>
         </h2>
