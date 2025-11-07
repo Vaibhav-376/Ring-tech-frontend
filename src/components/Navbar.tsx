@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
       { label: "Marketing Consultant", href: "/services/marketing-consultant" },
     ],
     Industry: [
-      { label: "Healthcare", href: "/industry/healthcare" },
+      { label: "B2b Marketing", href: "/industry/b2b-marketing" },
       { label: "Finance", href: "/industry/finance" },
       { label: "E-commerce", href: "/industry/ecommerce" },
       { label: "Education", href: "/industry/education" },

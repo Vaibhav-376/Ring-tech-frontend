@@ -14,6 +14,7 @@ import WebsiteDevelopment from "./pages/services/WebsiteDevelopment"
 import Overview from "./pages/hubspot/Overview"
 import Metaverse from "./pages/services/Metaverse"
 import MarketingConsultant from "./pages/services/MarketingConsultant"
+import B2bMarketing from "./pages/industry/B2bMarketing"
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
           <Route path="/services/metaverse-experience" element={<Metaverse/>}/>
           <Route path="/services/marketing-consultant" element={<MarketingConsultant/>}/>
           <Route path="/hubspot/overview" element={<Overview/>}/>
+
+
+          <Route path="/industry/b2b-marketing" element={<B2bMarketing/>}/>
         </Routes>
       </div>
       <Footer />
