@@ -21,6 +21,8 @@ const Navbar: React.FC = () => {
       { label: "Branding Developement", href: "/services/brand-development" },
       { label: "Website & App Development", href: "/services/website-development" },
       { label: "Hubspot services", href: "/hubspot/overview" },
+      { label: "Metaverse Experience", href: "/services/metaverse-experience" },
+      { label: "Marketing Consultant", href: "/services/marketing-consultant" },
     ],
     Industry: [
       { label: "Healthcare", href: "/industry/healthcare" },

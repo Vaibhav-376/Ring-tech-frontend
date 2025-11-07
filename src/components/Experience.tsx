@@ -14,15 +14,13 @@ const Experience = () => {
         { id: 3, title: "E-Commerce", img: "/shopping-cart.webp" }
     ]
     return (
-        <section className="py-20 bg-gray-50">
+        <section className="py-20 ">
             <div className="max-w-6xl mx-auto px-6">
 
-                {/* Title */}
                 <h2 className="text-center text-4xl font-serif text-pink-600 mb-12">
                     Industry Experience
                 </h2>
 
-                {/* Experience 1 - 4 Columns */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mb-12">
                     {experience.map((item) => (
                         <div
