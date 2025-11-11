@@ -15,6 +15,11 @@ import Overview from "./pages/hubspot/Overview"
 import Metaverse from "./pages/services/Metaverse"
 import MarketingConsultant from "./pages/services/MarketingConsultant"
 import B2bMarketing from "./pages/industry/B2bMarketing"
+import Education from "./pages/industry/Education"
+import Automotive from "./pages/industry/Automotive"
+import Ecommerce from "./pages/industry/Ecommerce"
+import Hospitality from "./pages/industry/Hospitality"
+import RealEstate from "./pages/industry/Realstate"
 
 function App() {
   return (
@@ -38,6 +43,11 @@ function App() {
 
 
           <Route path="/industry/b2b-marketing" element={<B2bMarketing/>}/>
+          <Route path="/industry/education-marketing-agency" element={<Education/>}/>
+          <Route path="/industry/automotive-marketing-agency" element={<Automotive/>}/>
+          <Route path="/industry/ecommerce" element={<Ecommerce/>}/>
+          <Route path="/industry/hotel-and-hospitality" element={<Hospitality/>}/>
+          <Route path="/industry/realstate" element={<RealEstate/>}/>
         </Routes>
       </div>
       <Footer />

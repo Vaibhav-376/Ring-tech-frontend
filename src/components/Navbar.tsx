@@ -26,9 +26,11 @@ const Navbar: React.FC = () => {
     ],
     Industry: [
       { label: "B2b Marketing", href: "/industry/b2b-marketing" },
-      { label: "Finance", href: "/industry/finance" },
+      { label: "Education", href: "/industry/education-marketing-agency" },
+      { label: "Automotive Marketing Agency", href: "/industry/automotive-marketing-agency" },
       { label: "E-commerce", href: "/industry/ecommerce" },
-      { label: "Education", href: "/industry/education" },
+      { label: "Hotel & Hospitality", href: "/industry/hotel-and-hospitality" },
+      { label: "Real State", href: "/industry/realstate" },
     ],
     HubSpot: [
       { label: "Overview", href: "/hubspot/overview" },
