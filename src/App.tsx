@@ -23,6 +23,7 @@ import RealEstate from "./pages/industry/Realstate"
 import HubspotEducation from "./pages/hubspot/HubspotEducation"
 import HubspotCmsWebsite from "./pages/hubspot/HubspotCmsWebsite"
 import Hubspot2b from "./pages/hubspot/HubspotB2B"
+import HubspotRealstate from "./pages/hubspot/HubspotRealstate"
 
 function App() {
   return (
@@ -56,6 +57,7 @@ function App() {
           <Route path="/hubspot/hubspot-education" element={<HubspotEducation/>}/>
           <Route path="/hubspot/hubspot-cms-website" element={<HubspotCmsWebsite/>}/>
           <Route path="/hubspot/hubspot-b2b" element={<Hubspot2b/>}/>
+          <Route path="/hubspot/hubspot-realstate" element={<HubspotRealstate/>}/>
         </Routes>
       </div>
       <Footer />
