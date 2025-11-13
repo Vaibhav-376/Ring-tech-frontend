@@ -36,9 +36,9 @@ const Navbar: React.FC = () => {
       { label: "Overview", href: "/hubspot/overview" },
       { label: "Hubspot for Education", href: "/hubspot/hubspot-education" },
       { label: "Hubspot for CMS - Websites", href: "/hubspot/hubspot-cms-website" },
-      { label: "Automation", href: "/hubspot/automation" },
-      { label: "Analytics", href: "/hubspot/analytics" },
-      { label: "Integrations", href: "/hubspot/integrations" },
+      { label: "Hubspot for B2B", href: "/hubspot/hubspot-b2b" },
+      // { label: "Analytics", href: "/hubspot/analytics" },
+      // { label: "Integrations", href: "/hubspot/integrations" },
 
     ],
   };

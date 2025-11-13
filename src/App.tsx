@@ -22,6 +22,7 @@ import Hospitality from "./pages/industry/Hospitality"
 import RealEstate from "./pages/industry/Realstate"
 import HubspotEducation from "./pages/hubspot/HubspotEducation"
 import HubspotCmsWebsite from "./pages/hubspot/HubspotCmsWebsite"
+import Hubspot2b from "./pages/hubspot/HubspotB2B"
 
 function App() {
   return (
@@ -54,6 +55,7 @@ function App() {
           <Route path="/hubspot/overview" element={<Overview/>}/>
           <Route path="/hubspot/hubspot-education" element={<HubspotEducation/>}/>
           <Route path="/hubspot/hubspot-cms-website" element={<HubspotCmsWebsite/>}/>
+          <Route path="/hubspot/hubspot-b2b" element={<Hubspot2b/>}/>
         </Routes>
       </div>
       <Footer />
