@@ -20,6 +20,8 @@ import Automotive from "./pages/industry/Automotive"
 import Ecommerce from "./pages/industry/Ecommerce"
 import Hospitality from "./pages/industry/Hospitality"
 import RealEstate from "./pages/industry/Realstate"
+import HubspotEducation from "./pages/hubspot/HubspotEducation"
+import HubspotCmsWebsite from "./pages/hubspot/HubspotCmsWebsite"
 
 function App() {
   return (
@@ -39,7 +41,6 @@ function App() {
           <Route path="/services/website-development" element={<WebsiteDevelopment/>}/>
           <Route path="/services/metaverse-experience" element={<Metaverse/>}/>
           <Route path="/services/marketing-consultant" element={<MarketingConsultant/>}/>
-          <Route path="/hubspot/overview" element={<Overview/>}/>
 
 
           <Route path="/industry/b2b-marketing" element={<B2bMarketing/>}/>
@@ -48,6 +49,11 @@ function App() {
           <Route path="/industry/ecommerce" element={<Ecommerce/>}/>
           <Route path="/industry/hotel-and-hospitality" element={<Hospitality/>}/>
           <Route path="/industry/realstate" element={<RealEstate/>}/>
+
+
+          <Route path="/hubspot/overview" element={<Overview/>}/>
+          <Route path="/hubspot/hubspot-education" element={<HubspotEducation/>}/>
+          <Route path="/hubspot/hubspot-cms-website" element={<HubspotCmsWebsite/>}/>
         </Routes>
       </div>
       <Footer />
