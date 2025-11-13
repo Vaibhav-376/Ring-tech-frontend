@@ -17,7 +17,7 @@ const Hubspot2b = () => {
   ];
 
   return (
-    <div className="bg-gradient-to-b from-pink-50 via-white to-pink-100 text-gray-800">
+    <div className="bg-linear-to-b from-pink-50 via-white to-pink-100 text-gray-800">
       <div className="max-w-7xl mx-auto">
 
         <section className="flex flex-col justify-center items-center text-center min-h-screen px-6 py-24 relative">
@@ -40,7 +40,7 @@ const Hubspot2b = () => {
               <button className="border border-pink-500 text-pink-600 px-10 py-3 rounded-full text-lg font-semibold transition-all duration-300 hover:bg-pink-500 hover:text-white hover:shadow-lg">
                 Speak to Us
               </button>
-              <button className="bg-gradient-to-r from-pink-500 to-pink-700 px-10 py-3 rounded-full text-lg font-semibold text-white transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+              <button className="bg-linear-to-r from-pink-500 to-pink-700 px-10 py-3 rounded-full text-lg font-semibold text-white transition-transform duration-300 hover:scale-105 hover:shadow-xl">
                 Get Started
               </button>
             </div>
