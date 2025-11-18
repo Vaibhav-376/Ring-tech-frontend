@@ -24,6 +24,14 @@ import HubspotEducation from "./pages/hubspot/HubspotEducation"
 import HubspotCmsWebsite from "./pages/hubspot/HubspotCmsWebsite"
 import Hubspot2b from "./pages/hubspot/HubspotB2B"
 import HubspotRealstate from "./pages/hubspot/HubspotRealstate"
+import Ourwork from "./pages/Ourwork"
+import Website from "./pages/ourwork/Website"
+import Seoo from "./pages/ourwork/Seo"
+import Leadgeneration from "./pages/ourwork/Leadgeneration"
+import Social from "./pages/ourwork/Social"
+import Video from "./pages/ourwork/Video"
+import Hubspot from "./pages/ourwork/Hubspot"
+import Contact from "./pages/Contact"
 
 function App() {
   return (
@@ -33,6 +41,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/ourwork" element={<Ourwork />} />
+          <Route path="/contactus" element={<Contact />} />
+
           <Route path="/services/digital-marketing" element={<DigitalMarketing />} />
           <Route path="/services/social-media" element={<SocialMedia />} />
           <Route path="/services/seo" element={<Seo />} />
@@ -58,6 +69,14 @@ function App() {
           <Route path="/hubspot/hubspot-cms-website" element={<HubspotCmsWebsite/>}/>
           <Route path="/hubspot/hubspot-b2b" element={<Hubspot2b/>}/>
           <Route path="/hubspot/hubspot-realstate" element={<HubspotRealstate/>}/>
+
+
+          <Route path="/ourwork/website" element={<Website/>}/>
+          <Route path="/ourwork/seo" element={<Seoo/>}/>
+          <Route path="/ourwork/lead-generation" element={<Leadgeneration/>}/>
+          <Route path="/ourwork/social" element={<Social/>}/>
+          <Route path="/ourwork/video" element={<Video/>}/>
+          <Route path="/ourwork/hubspot" element={<Hubspot/>}/>
         </Routes>
       </div>
       <Footer />

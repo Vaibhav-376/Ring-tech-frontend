@@ -91,15 +91,15 @@ const Navbar: React.FC = () => {
             </li>
           ))}
           <li><a href="/about" className="hover:text-[#FFD580] transition-all">About Us</a></li>
-          <li><a href="/work" className="hover:text-[#FFD580] transition-all">Our Work</a></li>
-          <li><a href="/ai-lab" className="hover:text-[#FFD580] transition-all">AI Lab</a></li>
-          <li><a href="/contact" className="hover:text-[#FFD580] transition-all">Contact</a></li>
+          <li><a href="/ourwork" className="hover:text-[#FFD580] transition-all">Our Work</a></li>
+          {/* <li><a href="/ai-lab" className="hover:text-[#FFD580] transition-all">AI Lab</a></li> */}
+          <li><a href="/contactus" className="hover:text-[#FFD580] transition-all">Contact</a></li>
         </ul>
 
       
         <div className="flex items-center gap-4">
           <a
-            href="/contact"
+            href="/contactus"
             className="hidden md:block bg-white text-[#4B1FCB] px-6 py-2 rounded-full font-semibold hover:bg-[#FFD580] hover:text-black transition-all"
           >
             Speak to Us

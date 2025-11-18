@@ -20,42 +20,34 @@ const PartnersAndRewards = () => {
         </span>
       </h2>
 
-      {/* Subtle gradient overlays for fade effect */}
-      <div className="absolute top-0 left-0 w-40 h-full bg-linear-to-r from-white via-white/80 to-transparent z-10"></div>
-      <div className="absolute top-0 right-0 w-40 h-full bg-linear-to-l from-white via-white/80 to-transparent z-10"></div>
+      <div className="absolute top-0 left-0 w-32 md:w-40 h-full bg-linear-to-r from-pink-50 to-transparent z-10"></div>
+      <div className="absolute top-0 right-0 w-32 md:w-40 h-full bg-linear-to-l from-pink-50 to-transparent z-10"></div>
 
-      {/* Marquee */}
-      <div className="group flex items-center overflow-hidden">
+      <div className="group overflow-hidden">
         <div className="flex gap-16 animate-marquee group-hover:[animation-play-state:paused]">
           {[...partners, ...partners].map((partner, index) => (
             <div
               key={index}
-              className="flex items-center justify-center w-36 h-36 bg-white/90 rounded-2xl shadow-md backdrop-blur-sm hover:shadow-xl transition-all duration-300 hover:scale-105"
+              className="flex items-center justify-center w-32 h-32 md:w-40 md:h-40 rounded-2xl shadow-md backdrop-blur-sm transition-all duration-300 hover:shadow-xl hover:scale-105"
             >
               <img
                 src={partner.image}
-                alt="partner logo"
-                className="w-20 h-20 object-contain opacity-80 hover:opacity-100 transition-opacity duration-300"
+                alt="partner"
+                className="w-16 h-16 md:w-20 md:h-20 object-contain opacity-80 hover:opacity-100 transition-opacity duration-300"
               />
             </div>
           ))}
         </div>
       </div>
 
-      {/* Animation CSS */}
       <style>{`
         @keyframes marquee {
-          0% {
-            transform: translateX(0);
-          }
-          100% {
-            transform: translateX(-50%);
-          }
+          0% { transform: translateX(0); }
+          100% { transform: translateX(-50%); }
         }
         .animate-marquee {
-          display: flex;
           width: max-content;
-          animation: marquee 25s linear infinite;
+          animation: marquee 22s linear infinite;
         }
       `}</style>
     </section>
