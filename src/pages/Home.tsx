@@ -198,7 +198,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
           className="md:w-1/2 flex justify-center"
         >
           <img
-            src="/team.jpg"
+            src={"https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/HomepageAssets/team.jpg"}
             alt="Our Team"
             className="rounded-2xl shadow-[0_0_40px_rgba(236,72,153,0.3)] object-cover hover:scale-105 transition-transform duration-700"
           />
@@ -327,8 +327,8 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
           <div className="md:w-1/2 flex justify-center">
             <div className="relative w-[400px] h-[500px]">
               <img
-                src="/leading.webp"
-                alt="Our Team"
+                src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/HomepageAssets/leading.webp"
+                alt="Leading"
                 className="rounded-2xl shadow-[0_0_40px_rgba(236,72,153,0.3)] object-cover hover:scale-105 transition-transform duration-700"
               />
             </div>

@@ -8,14 +8,14 @@ import LeadForm from '../../components/LeadForm'
 
 const Seo = () => {
     const process = [
-        { id: 1, title: "Immersion Session", desc: "A one-on-one session between your organization and the Ring Tech Marketing team to gain a deeper understanding of your business objectives and goals.", img: "/services/immersion.webp" },
-        { id: 2, title: "SEO and Keywords", desc: "Creating content strategically optimized for search engines — incorporating targeted keywords and relevant topics that attract quality traffic and boost visibility.", img: "/services/seo.webp" },
-        { id: 3, title: "Content Gap Analysis", desc: "Conducting a thorough audit of your existing content, identifying gaps, and collaborating with the SEO team to optimize it for improved performance and search visibility.", img: "/services/content.webp" },
-        { id: 4, title: "Content Clusters", desc: "Developing new content clusters, repurposing existing materials, and creating pillar pages centered around targeted keywords to strengthen topic authority and improve search rankings.", img: "/services/cluster.webp" },
-        { id: 5, title: "Quaterly Plan", desc: "Developing a quarterly strategy aligned with business objectives — outlining how to effectively target the B2B sector using a combination of existing and newly created content.", img: "/services/quaterly.webp" },
-        { id: 6, title: "Content Workshop", desc: "Outlining the overall content strategy — detailing how existing content will be leveraged alongside newly created material to effectively engage and reach the target market.", img: "/services/content.webp" },
-        { id: 7, title: "Production", desc: "Developing new blogs, sharing repurposed content along with content suggestions - infographic, videos, animations, podcast etc", img: "/services/production.webp" },
-        { id: 8, title: "Reporting", desc: "Analysis to see what content is driving the most organic traffic which drives the content plan for month 3–6 in line with Vari’s goals", img: "/services/reporting.webp" },
+        { id: 1, title: "Immersion Session", desc: "A one-on-one session between your organization and the Ring Tech Marketing team to gain a deeper understanding of your business objectives and goals.", img: "https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/seo/immersion.webp" },
+        { id: 2, title: "SEO and Keywords", desc: "Creating content strategically optimized for search engines — incorporating targeted keywords and relevant topics that attract quality traffic and boost visibility.", img: "https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/seo/seo.webp" },
+        { id: 3, title: "Content Gap Analysis", desc: "Conducting a thorough audit of your existing content, identifying gaps, and collaborating with the SEO team to optimize it for improved performance and search visibility.", img: "https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/seo/content.webp" },
+        { id: 4, title: "Content Clusters", desc: "Developing new content clusters, repurposing existing materials, and creating pillar pages centered around targeted keywords to strengthen topic authority and improve search rankings.", img: "https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/seo/cluster.webp" },
+        { id: 5, title: "Quaterly Plan", desc: "Developing a quarterly strategy aligned with business objectives — outlining how to effectively target the B2B sector using a combination of existing and newly created content.", img: "https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/seo/quaterly.webp" },
+        { id: 6, title: "Content Workshop", desc: "Outlining the overall content strategy — detailing how existing content will be leveraged alongside newly created material to effectively engage and reach the target market.", img: "https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/seo/content.webp" },
+        { id: 7, title: "Production", desc: "Developing new blogs, sharing repurposed content along with content suggestions - infographic, videos, animations, podcast etc", img: "https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/seo/production.webp" },
+        { id: 8, title: "Reporting", desc: "Analysis to see what content is driving the most organic traffic which drives the content plan for month 3–6 in line with Vari’s goals", img: "https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/seo/reporting.webp" },
     ]
 
     const service = [
@@ -62,7 +62,7 @@ const Seo = () => {
                     </div>
 
                     <div>
-                        <img src="/services/seo-all-budget.webp" alt="" />
+                        <img src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/seo-all-budget.webp" alt="" />
                     </div>
 
                 </div>
@@ -145,7 +145,7 @@ const Seo = () => {
                     {/* Left Image */}
                     <div className="flex-1">
                         <img
-                            src="/services/seoapproach.webp"
+                            src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/seoapproach.webp"
                             alt="SEO Approach"
                             className="rounded-2xl shadow-lg w-full object-cover"
                         />
@@ -239,7 +239,7 @@ const Seo = () => {
 
                     <div className="flex-1 flex flex-col items-center gap-6">
                         <img
-                            src="/services/E.webp"
+                            src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/E.webp"
                             alt="SEO Visual Element"
                             className="w-3/4 md:w-1/2 rounded-lg shadow-lg transform hover:scale-105 transition"
                         />

@@ -17,12 +17,12 @@ const SocialMedia = () => {
     ]
 
     const benfits = [
-        {id:1,title:"Targeted Goal Setting",img:"/services/eye.webp"},
-        {id:2,title:"Creative Content Creation",img:"/services/stats.webp"},
-        {id:3,title:"Efficient Platform Management",img:"/services/eye.webp"},
-        {id:4,title:"Enhanced Audio Communication",img:"/services/messgae.webp"},
-        {id:5,title:"Data-Driven Insights",img:"/services/pen.webp"},
-        {id:6,title:"Increase Band Visibility",img:"/services/target.webp"}
+        {id:1,title:"Targeted Goal Setting",img:"https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/eye.webp"},
+        {id:2,title:"Creative Content Creation",img:"https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/instagram.webp"},
+        {id:3,title:"Efficient Platform Management",img:"https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/eye.webp"},
+        {id:4,title:"Enhanced Audio Communication",img:"https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/messgae.webp"},
+        {id:5,title:"Data-Driven Insights",img:"https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/pen.webp"},
+        {id:6,title:"Increase Band Visibility",img:"https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/target.webp"}
     ]
     return (
         <div className='bg-linear-to-b from bg-pink-50 via-white to-pink-100 text-gray-900'>
@@ -59,7 +59,7 @@ const SocialMedia = () => {
                 <div className="flex justify-between items-center gap-6">
                     <div className="w-1/2">
                         <video
-                            src="/services/Nexa Social Video (1).mp4"
+                            src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/Nexa+Social+Video+(1).mp4"
                             controls
                             autoPlay
                             muted
@@ -98,7 +98,7 @@ const SocialMedia = () => {
 
                     <div className="md:w-1/2 flex justify-center">
                         <img
-                            src="/services/instagram.webp"
+                            src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/instagram.webp"
                             alt="Social Media Marketing"
                             className="rounded-2xl shadow-lg w-full max-w-md object-cover"
                         />
@@ -148,7 +148,7 @@ const SocialMedia = () => {
                         <p className='text-justify'>Ring Tech Marketing takes pride in being a leading digital marketing agency. With over eighteen years of industry experience, we’ve seen social media evolve from its early days and have consistently stayed ahead of every major shift. Our dedicated team of social media experts continues to drive innovation, ensuring our clients always benefit from cutting-edge strategies and top-quality service.</p>
                     </div>
                     <div className='px-10'>
-                        <img src="/services/instagram.webp" alt="" />
+                        <img src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/instagram.webp" alt="" />
                     </div>
                 </div>
             </section>

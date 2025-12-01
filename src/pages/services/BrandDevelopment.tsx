@@ -47,7 +47,7 @@ const BrandDevelopment = () => {
                     className="w-full lg:w-1/2 flex justify-center"
                 >
                     <img
-                        src="/services/Frame.webp"
+                        src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/brand-development/Frame.webp"
                         alt="Brand Development"
                         className="w-[90%] max-w-lg drop-shadow-xl"
                     />
@@ -69,7 +69,7 @@ const BrandDevelopment = () => {
                     className="w-full lg:w-1/2"
                 >
                     <img
-                        src="/services/branding.webp"
+                        src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/brand-development/branding.webp"
                         alt="Brand Story"
                         className="rounded-2xl shadow-lg"
                     />
@@ -101,7 +101,7 @@ const BrandDevelopment = () => {
             >
                 <div className="relative">
                     <img
-                        src="/services/branding1.webp"
+                        src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/brand-development/branding1.webp"
                         alt="Identity Design"
                         className="w-full rounded-2xl shadow-2xl"
                     />

@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 
 const Ourwork = () => {
   const browseWork = [
-    { id: 1, title: "Website", img: "/ourwork/website.png", link: "/ourwork/website" },
-    { id: 2, title: "SEO", img: "/ourwork/seo.png", link: "/ourwork/seo" },
-    { id: 3, title: "Lead Generation", img: "/ourwork/leadgeneration.avif", link: "/ourwork/lead-generation" },
-    { id: 4, title: "Social", img: "/ourwork/social.jpg", link: "/ourwork/social" },
-    { id: 5, title: "Video", img: "/ourwork/video.png", link: "/ourwork/video" },
-    { id: 6, title: "HubSpot", img: "/ourwork/hubspot.svg", link: "/ourwork/hubspot" },
+    { id: 1, title: "Website", img: "https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/our-work/website.png", link: "/ourwork/website" },
+    { id: 2, title: "SEO", img: "https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/our-work/seo.png", link: "/ourwork/seo" },
+    { id: 3, title: "Lead Generation", img: "https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/our-work/leadgeneration.avif", link: "/ourwork/lead-generation" },
+    { id: 4, title: "Social", img: "https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/our-work/social.jpg", link: "/ourwork/social" },
+    { id: 5, title: "Video", img: "https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/our-work/video.png", link: "/ourwork/video" },
+    { id: 6, title: "HubSpot", img: "https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/our-work/hubspot.svg", link: "/ourwork/hubspot" },
   ];
 
   return (
@@ -82,7 +82,7 @@ const Ourwork = () => {
               <div className="absolute inset-0 blur-3xl bg-pink-200 opacity-20 rounded-full"></div>
 
               <video
-                src="/ourwork/video1.mp4"
+                src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/our-work/video1.mp4"
                 autoPlay
                 loop
                 muted

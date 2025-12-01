@@ -120,7 +120,7 @@ const Metaverse = () => {
                         className="flex-1 flex justify-center"
                     >
                         <img
-                            src="/services/metaverse.webp"
+                            src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/metaverse-experience/metaverse.webp"
                             alt="Metaverse illustration"
                             className="rounded-3xl shadow-xl hover:scale-105 transition-transform duration-500"
                         />
@@ -172,7 +172,7 @@ const Metaverse = () => {
                             className="flex-1"
                         >
                             <img
-                                src="/services/metaverse1.webp"
+                                src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/metaverse-experience/metaverse1.webp"
                                 alt="Metaverse Strategy"
                                 className="rounded-2xl shadow-lg w-full"
                             />
@@ -244,7 +244,7 @@ const Metaverse = () => {
                             className="flex-1"
                         >
                             <img
-                                src="/services/metaverse2.webp"
+                                src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/metaverse-experience/metaverse2.webp"
                                 alt="Working with Ringtech Marketing"
                                 className="rounded-2xl shadow-lg w-full"
                             />

@@ -5,9 +5,9 @@ import LeadForm from '../components/LeadForm'
 
 const About = () => {
   const leadingbrands = [
-    { id: 1, title: "Digital Solutions with Unmatched Excellence", desc: "Our expert-crafted digital marketing services focus on success and distinction", img: "/about/img1.webp" },
-    { id: 2, title: "Turn Your Digital Ideas Into Reality", desc: "We transform your vision into a unique digital experience, backed by over 20 years of expertise", img: "/about/img2.webp" },
-    { id: 3, title: "Strategies Tailored to Your Ambitions", desc: "We deliver innovative and precise strategies to achieve your goals seamlessly", img: "/about/img3.webp" },
+    { id: 1, title: "Digital Solutions with Unmatched Excellence", desc: "Our expert-crafted digital marketing services focus on success and distinction", img: "https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/about/img1.webp" },
+    { id: 2, title: "Turn Your Digital Ideas Into Reality", desc: "We transform your vision into a unique digital experience, backed by over 20 years of expertise", img: "https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/about/img2.webp" },
+    { id: 3, title: "Strategies Tailored to Your Ambitions", desc: "We deliver innovative and precise strategies to achieve your goals seamlessly", img: "https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/about/img3.webp" },
   ]
 
   return (
@@ -62,7 +62,7 @@ const About = () => {
               className="flex justify-center"
             >
               <video
-                src="/about/video1.mp4"
+                src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/about/video1.mp4"
                 autoPlay
                 loop
                 muted

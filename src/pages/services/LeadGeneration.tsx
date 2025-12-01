@@ -107,7 +107,7 @@ const LeadGeneration = () => {
             className="flex justify-center"
           >
             <img
-              src="/services/leadgen.webp"
+              src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/lead-generation-agency/leadgen.webp"
               alt="Lead Generation Strategy"
               className="rounded-2xl shadow-2xl w-full max-w-md"
             />
@@ -201,7 +201,7 @@ const LeadGeneration = () => {
             </p>
           </div>
           <div className="flex justify-center">
-            <img src="/services/leadgen2.webp" alt="Lead Generation Campaigns" className="rounded-2xl shadow-2xl max-w-sm" />
+            <img src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/lead-generation-agency/leadgen2.webp" alt="Lead Generation Campaigns" className="rounded-2xl shadow-2xl max-w-sm" />
           </div>
         </div>
       </section>

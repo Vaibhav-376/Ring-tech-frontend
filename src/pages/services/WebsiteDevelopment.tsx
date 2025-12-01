@@ -11,37 +11,37 @@ const WebsiteDevelopment = () => {
     const services = [
         {
             id: 1,
-            img: "/services/website1.webp",
+            img: "https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/website-development/website1.webp",
             title: "Creating Seamless Digital Experiences",
             desc: "We design responsive websites that adapt beautifully across devices — from desktops to wearables — ensuring an intuitive and engaging experience for every user.",
         },
         {
             id: 2,
-            img: "/services/website2.webp",
+            img: "https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/website-development/website2.webp",
             title: "Continuous Updates & Enhancements",
             desc: "We keep your website evolving with fresh features and the latest design trends, ensuring it stays relevant and ahead of competitors.",
         },
         {
             id: 3,
-            img: "/services/website3.webp",
+            img: "https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/website-development/website3.webp",
             title: "Maintenance & Troubleshooting",
             desc: "We proactively monitor and resolve issues to keep your site running flawlessly, ensuring top performance and zero downtime.",
         },
         {
             id: 4,
-            img: "/services/website4.webp",
+            img: "https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/website-development/website4.webp",
             title: "Professional Content Translation",
             desc: "We translate your website with precision and cultural awareness, keeping your brand voice consistent across every market.",
         },
         {
             id: 5,
-            img: "/services/website5.webp",
+            img: "https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/website-development/website5.webp",
             title: "User Experience Optimization (CRO)",
             desc: "We turn insights into action — enhancing UX to boost engagement, reduce bounce rates, and increase conversions.",
         },
         {
             id: 6,
-            img: "/services/website6.webp",
+            img: "https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/website-development/website6.webp",
             title: "Creating & Formatting Content",
             desc: "Our creative team produces on-brand copy, visuals, and layouts that strengthen audience connection and deliver results.",
         },
@@ -120,7 +120,7 @@ const WebsiteDevelopment = () => {
                     </div>
                     <div className="flex-1 flex justify-center">
                         <img
-                            src="/services/websitedev.webp"
+                            src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/website-development/websitedev.webp"
                             alt="Website Development"
                             className="rounded-2xl shadow-lg w-full max-w-md"
                         />
@@ -239,7 +239,7 @@ const WebsiteDevelopment = () => {
                     </div>
                     <div className="flex-1 flex justify-center">
                         <img
-                            src="/services/website7.webp"
+                            src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/website-development/website7.webp"
                             alt="Website Design"
                             className="rounded-2xl shadow-lg w-full max-w-md"
                         />

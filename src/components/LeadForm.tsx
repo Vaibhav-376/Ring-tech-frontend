@@ -41,6 +41,15 @@ const LeadForm = () => {
 
       console.log("Form submitted successfully:", data);
       alert("Form submitted successfully!");
+
+      setformdata({
+        firstName: "",
+        lastName: "",
+        email: "",
+        companyName: "",
+        mobileNo: "",
+        message: ""
+      })
     } catch (error) {
       console.error("Error submitting form:", error);
       alert("Error submitting form");

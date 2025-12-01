@@ -49,7 +49,7 @@ const MarketingConsultant = () => {
             className="w-full lg:w-1/2 flex justify-center"
           >
             <img
-              src="/services/consultant1.webp"
+              src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/marketing-consultant/consultant1.webp"
               alt="Marketing Consultant"
               className="w-full max-w-md rounded-2xl shadow-lg"
             />
@@ -70,7 +70,7 @@ const MarketingConsultant = () => {
               className="w-full lg:w-1/2"
             >
               <img
-                src="/services/consultant2.webp"
+                src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/marketing-consultant/consultant2.webp"
                 alt="Strategy Planning"
                 className="rounded-2xl shadow-md"
               />

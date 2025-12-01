@@ -78,7 +78,7 @@ const VideoMarketing = () => {
 
                         <div className="flex-1 flex justify-center">
                             <video
-                                src="/services/video.mp4"
+                                src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/video-marketing/video.mp4"
                                 className="rounded-2xl shadow-lg w-full max-w-md"
                                 muted
                                 autoPlay
@@ -101,37 +101,37 @@ const VideoMarketing = () => {
                     </h1>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto px-6">
                         <video
-                            src="/services/videos/work1.mp4"
+                            src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/video-marketing/work1.mp4"
                             className="rounded-lg shadow-lg w-full object-cover"
                             controls
                             muted
                         />
                         <video
-                            src="/services/videos/work2.mp4"
+                            src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/video-marketing/work2.mp4"
                             className="rounded-lg shadow-lg w-full object-cover"
                             controls
                             muted
                         />
                         <video
-                            src="/services/videos/work3.mp4"
+                            src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/video-marketing/work3.mp4"
                             className="rounded-lg shadow-lg w-full object-cover"
                             controls
                             muted
                         />
                         <video
-                            src="/services/videos/work4.mp4"
+                            src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/video-marketing/work4.mp4"
                             className="rounded-lg shadow-lg w-full object-cover"
                             controls
                             muted
                         />
                         <video
-                            src="/services/videos/work5.mp4"
+                            src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/video-marketing/work5.mp4"
                             className="rounded-lg shadow-lg w-full object-cover"
                             controls
                             muted
                         />
                         <video
-                            src="/services/videos/work6.mp4"
+                            src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/video-marketing/work6.mp4"
                             className="rounded-lg shadow-lg w-full object-cover"
                             controls
                             muted

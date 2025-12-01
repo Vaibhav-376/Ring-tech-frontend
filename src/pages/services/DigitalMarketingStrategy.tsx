@@ -72,7 +72,7 @@ const DigitalMarketingStrategy = () => {
                     </div>
                     <div className="md:w-1/2">
                         <video
-                            src="/services/strategyvideo.mp4"
+                            src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/digital-marketing-strategy/strategyvideo.mp4"
                             className="rounded-xl shadow-lg w-full"
                             autoPlay
                             loop
@@ -147,7 +147,7 @@ const DigitalMarketingStrategy = () => {
                         ecosystem work together seamlessly to amplify your brand’s reach and results.
                     </p>
                     <img
-                        src="/Integratedigitalstrategy.webp"
+                        src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/digital-marketing-strategy/Integratedigitalstrategy.webp"
                         alt="Integrated Digital Strategy"
                         className="w-full mt-12 rounded-xl shadow-lg"
                     />
@@ -163,7 +163,7 @@ const DigitalMarketingStrategy = () => {
                     className="flex flex-col md:flex-row justify-between items-center gap-10"
                 >
                     <div className="md:w-1/2">
-                        <img src="/strategy.webp" alt="Strategy Development" className="rounded-xl shadow-lg" />
+                        <img src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/servicesNavMenu/digital-marketing-strategy/strategy.webp" alt="Strategy Development" className="rounded-xl shadow-lg" />
                     </div>
                     <div className="md:w-1/2">
                         <h2 className="text-3xl font-serif font-bold text-pink-600 mb-4">

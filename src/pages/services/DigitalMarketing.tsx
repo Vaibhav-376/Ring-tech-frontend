@@ -7,15 +7,15 @@ import Testimonials from "../../components/Testimonials";
 import LeadForm from "../../components/LeadForm";
 const DigitalMarketing = () => {
   const experience = [
-    { id: 1, title: "B2B Marketing", img: "/b2b.webp" },
-    { id: 2, title: "Education", img: "/mortarboard.webp" },
-    { id: 3, title: "Automotive", img: "/automotive.webp" },
-    { id: 4, title: "Healthcare", img: "/healthcare.webp" },
+    { id: 1, title: "B2B Marketing", img: "https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/HomepageAssets/b2b.webp" },
+    { id: 2, title: "Education", img: "https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/HomepageAssets/mortarboard.webp" },
+    { id: 3, title: "Automotive", img: "https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/HomepageAssets/automotive.webp" },
+    { id: 4, title: "Healthcare", img: "https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/HomepageAssets/healthcare.webp" },
   ]
   const experience2 = [
-    { id: 1, title: "Hospitality", img: "/hospitality.webp" },
-    { id: 2, title: "Real Estate", img: "/building.webp" },
-    { id: 3, title: "E-Commerce", img: "/shopping-cart.webp" }
+    { id: 1, title: "Hospitality", img: "https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/HomepageAssets/hospitality.webp" },
+    { id: 2, title: "Real Estate", img: "https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/HomepageAssets/building.webp" },
+    { id: 3, title: "E-Commerce", img: "https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/HomepageAssets/shopping-cart.webp" }
   ]
   return (
     <div className='bg-linear-to-b from-pink-50 via white to-pink-100 text-gray-900'>
@@ -101,7 +101,7 @@ const DigitalMarketing = () => {
               className="md:w-1/2 flex justify-center"
             >
               <img
-                src="/digitalMarketing.webp"
+                src="https://ringtechmarketingbucket.s3.ap-south-1.amazonaws.com/HomepageAssets/digitalMarketing.webp"
                 alt="Award Winning Digital Marketing Agency"
                 className="rounded-2xl shadow-lg w-full max-w-md object-cover"
               />
@@ -237,21 +237,21 @@ const DigitalMarketing = () => {
                 key={item.id}
                 className="p-6 bg-white rounded-2xl shadow-md border border-pink-100 hover:shadow-pink-200/60 transition-transform duration-300 hover:-translate-y-2 text-center"
               >
-           
+
                 <img src={item.img} alt={item.title} className="mx-auto mb-4 w-16 h-16 object-contain" />
                 <h3 className="text-lg font-semibold text-gray-800">{item.title}</h3>
               </div>
             ))}
           </div>
 
-         
+
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {experience2.map((item) => (
               <div
                 key={item.id}
                 className="p-6 bg-white rounded-2xl shadow-md border border-pink-100 hover:shadow-pink-200/60 transition-transform duration-300 hover:-translate-y-2 text-center"
               >
-                
+
                 <img src={item.img} alt={item.title} className="mx-auto mb-4 w-16 h-16 object-contain" />
                 <h3 className="text-lg font-semibold text-gray-800">{item.title}</h3>
               </div>
